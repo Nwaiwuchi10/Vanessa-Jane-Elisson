@@ -20,7 +20,7 @@ const Header = () => {
         <img
           src={profile_img}
           alt="Vanessa Jane Elisson"
-          className="mx-auto shadow-xl object-cover rounded-2xl ring-1 ring-black/10
+          className="mx-auto shadow-xl object-cover object-[center_20%] rounded-2xl ring-1 ring-black/10
 
   w-[95%] h-[420px]
   sm:w-[90%] sm:h-[520px]
