@@ -1,0 +1,32 @@
+.whatsapp-img-div {
+  position: fixed;
+  z-index: 40;
+  right: 24px;
+  bottom: 24px;
+  cursor: pointer;
+}
+.whatsapp-img-size {
+  width: 60px;
+  height: 60px;
+}
+.whatsapp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  .whatsapp-img-div {
+    right: 16px;
+    bottom: 16px;
+    z-index: 40;
+  }
+  .esp-p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .whatsapp-img-div {
+    right: 12px;
+    bottom: 12px;
+  }
+}
