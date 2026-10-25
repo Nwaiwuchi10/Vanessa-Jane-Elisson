@@ -3,12 +3,12 @@ import right_arrow_blod from "../assets/right-arrow-bold.png";
 import right_arrow_blod_dark from "../assets/right-arrow-bold-dark.png";
 import pdf from "../assets/profile.pdf";
 const Work = () => {
-  const downloadPortfolio = () => {
-    const link = document.createElement("a");
-    link.href = pdf;
-    link.download = "VanessaJaneElisson-Portfolio.pdf";
-    link.click();
-  };
+  // const downloadPortfolio = () => {
+  //   const link = document.createElement("a");
+  //   link.href = pdf;
+  //   link.download = "VanessaJaneElisson-Portfolio.pdf";
+  //   link.click();
+  // };
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-sm uppercase tracking-[0.2em] text-[#b820e6] font-semibold">My mission</h4>
@@ -66,7 +66,7 @@ const Work = () => {
         </div>
       </div>
       <a
-        onClick={downloadPortfolio}
+        // onClick={downloadPortfolio}
         style={{ cursor: "pointer" }}
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500
     dark:text-white dark:border-white dark:hover:bg-darkHover"
